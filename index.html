@@ -949,6 +949,9 @@
 
     #ueber { grid-template-columns: 1fr; padding: 5rem 6%; }
     .ueber-visual { display: none; }
+    #prozess > div:last-child > div { padding: 2rem 0 !important; border-right: none !important; border-bottom: 1px solid rgba(196,184,166,0.15); }
+    #prozess > div:last-child > div:last-child { border-bottom: none; }
+    .usp-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
 
     .testimonials-grid { grid-template-columns: 1fr; }
 
@@ -1068,6 +1071,59 @@
     <span>Schnell – Termin innerhalb von 48 Stunden</span>
   </div>
 </div>
+
+<!-- USP SEKTION -->
+<section style="background:var(--warm-white); padding:7rem 8%; border-bottom:1px solid var(--border);">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:6rem; align-items:center;">
+
+    <!-- Links: Die Aussage -->
+    <div class="fade-in">
+      <p class="section-label">Warum Kilian M.</p>
+      <h2 style="font-family:'Cormorant Garamond',serif; font-size:clamp(2.2rem,4vw,3.5rem); font-weight:300; line-height:1.15; color:var(--deep); margin-bottom:1.5rem;">
+        Die einzige Beratung,<br>die <em style="font-style:italic;color:var(--gold);">beide Seiten</em><br>wirklich kennt.
+      </h2>
+      <p style="font-size:1.1rem; color:var(--text-muted); line-height:1.85; max-width:480px; margin-bottom:2.5rem;">
+        Als Pflegedienstinhaber <em>und</em> Immobilienberater sitze ich nicht zwischen zwei Stühlen – ich verbinde beide Welten. Was andere Berater separat lösen müssen, koordiniere ich für Sie in einem einzigen Gespräch.
+      </p>
+      <a href="tel:01637412565" class="btn-primary">Jetzt kostenloses Erstgespräch</a>
+    </div>
+
+    <!-- Rechts: Die drei Säulen -->
+    <div class="fade-in" style="display:flex; flex-direction:column; gap:0; border:1px solid var(--border); border-radius:2px;">
+
+      <div style="padding:2rem 2.25rem; border-bottom:1px solid var(--border); display:flex; gap:1.5rem; align-items:flex-start;">
+        <div style="width:48px;height:48px;background:var(--deep);border-radius:2px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--deep);margin-bottom:0.35rem;">Immobilie</p>
+          <p style="font-size:0.95rem;color:var(--text-muted);line-height:1.7;">Bewertung, Verkaufsstrategie, Makler-Vermittlung – alles unabhängig und transparent.</p>
+        </div>
+      </div>
+
+      <div style="padding:2rem 2.25rem; border-bottom:1px solid var(--border); display:flex; gap:1.5rem; align-items:flex-start;">
+        <div style="width:48px;height:48px;background:var(--deep);border-radius:2px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--deep);margin-bottom:0.35rem;">Pflege</p>
+          <p style="font-size:0.95rem;color:var(--text-muted);line-height:1.7;">Pflegestufe, Finanzierung, Organisation – ich kenne das System von innen.</p>
+        </div>
+      </div>
+
+      <div style="padding:2rem 2.25rem; background:var(--gold-light); display:flex; gap:1.5rem; align-items:flex-start;">
+        <div style="width:48px;height:48px;background:var(--gold);border-radius:2px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--deep)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--deep);margin-bottom:0.35rem;">Koordination – der Unterschied</p>
+          <p style="font-size:0.95rem;color:var(--earth);line-height:1.7;">Beide Themen gleichzeitig und aufeinander abgestimmt – <strong>das finden Sie nirgendwo sonst.</strong></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- SITUATIONEN -->
 <section id="situationen">
